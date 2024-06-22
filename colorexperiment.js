@@ -17,6 +17,7 @@ function randomColour() {
     colourTitle.style.color = `hsl(${colourHue}, ${colourSaturation}, ${colourLight})`;
     colourText.style.color = `hsl(${colourHue}, ${colourSaturation}, ${colourLight})`;
     colourPage.style.backgroundColor = `hsl(${colourHuePage}, ${colourSaturationPage}, ${colourLightPage})`;
+    colourText.innerHTML = `Now this text is a random color!`;
 }
 
 favoriteColourButton.onclick = favoriteColour
